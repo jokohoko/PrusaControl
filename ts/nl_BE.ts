@@ -42,22 +42,22 @@
     <message>
         <location filename="controller.py" line="2285"/>
         <source>Preparing infill</source>
-        <translation>Opvulling klaarmaken</translation>
+        <translation>Opvulling voorbereiden</translation>
     </message>
     <message>
         <location filename="controller.py" line="2286"/>
         <source>Generating skirt</source>
-        <translation>skirt berekenen</translation>
+        <translation>Skirt berekenen</translation>
     </message>
     <message>
         <location filename="controller.py" line="2287"/>
         <source>Exporting G-code to</source>
-        <translation>G-code geëxporteerd naar</translation>
+        <translation>G-code aan het exporteren naar</translation>
     </message>
     <message>
         <location filename="controller.py" line="2288"/>
         <source>Done. Process took</source>
-        <translation>Klaar! berekening duurde</translation>
+        <translation>Klaar! Berekening duurde</translation>
     </message>
     <message>
         <location filename="controller.py" line="337"/>
@@ -163,7 +163,7 @@
     <message>
         <location filename="sceneRender.py" line="308"/>
         <source>Arrange tool</source>
-        <translation>Schik automatisch</translation>
+        <translation>Automatisch positioneren</translation>
     </message>
     <message>
         <location filename="sceneRender.py" line="314"/>
@@ -343,7 +343,7 @@
         <location filename="gui.py" line="1477"/>
         <source>Automatic placing of models
  on printing bed in Z axis</source>
-        <translation>Modellen automatisch op de bouwplaat zakken</translation>
+        <translation>Modellen automatisch op de bouwplaat plaatsen</translation>
     </message>
     <message>
         <location filename="gui.py" line="1479"/>
@@ -408,7 +408,7 @@
     <message>
         <location filename="gui.py" line="1501"/>
         <source>Select how much space inside of model have to be filled</source>
-        <translation>Selecteer hoeveel de inhoud van het model moet worden opgevuld</translation>
+        <translation>Selecteer hoe massief het model moet worden opgevuld</translation>
     </message>
     <message>
         <location filename="gui.py" line="1505"/>
@@ -423,7 +423,7 @@
     <message>
         <location filename="gui.py" line="1562"/>
         <source>Build plate only</source>
-        <translation>Enkel vanop de bouwplaat</translation>
+        <translation>Enkel vanaf de bouwplaat</translation>
     </message>
     <message>
         <location filename="gui.py" line="1562"/>
@@ -478,12 +478,12 @@
     <message>
         <location filename="gui.py" line="1876"/>
         <source>Save G-Code</source>
-        <translation>G-Code opslaan</translation>
+        <translation>G-code opslaan</translation>
     </message>
     <message>
         <location filename="gui.py" line="1877"/>
         <source>Save generated gcode file</source>
-        <translation>Berekende G-code opslaan</translation>
+        <translation>G-code opslaan</translation>
     </message>
     <message>
         <location filename="gui.py" line="1884"/>
@@ -493,7 +493,7 @@
     <message>
         <location filename="gui.py" line="1881"/>
         <source>Cancel of generating gcode file</source>
-        <translation>Annuleer berekende G-code</translation>
+        <translation>Annuleer berekening</translation>
     </message>
     <message>
         <location filename="gui.py" line="1466"/>
@@ -543,12 +543,12 @@
     <message>
         <location filename="gui.py" line="1536"/>
         <source>Reset transformations</source>
-        <translation>Reset verplaatsingen</translation>
+        <translation>Verplaatsingen ongedaan maken</translation>
     </message>
     <message>
         <location filename="gui.py" line="1645"/>
         <source>Import multipart model file</source>
-        <translation>Importeer gecombineerde modellen</translation>
+        <translation>Importeer uitgelijnde modellen</translation>
     </message>
     <message>
         <location filename="gui.py" line="1657"/>
@@ -568,7 +568,7 @@
     <message>
         <location filename="gui.py" line="1353"/>
         <source>Copy	Ctrl+C</source>
-        <translation>kopiëren</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="gui.py" line="1354"/>
@@ -593,12 +593,12 @@
     <message>
         <location filename="gui.py" line="1705"/>
         <source>New version is out!</source>
-        <translation>Er is een nieuwe versie!</translation>
+        <translation>Er is een nieuwe versie beschikbaar!</translation>
     </message>
     <message>
         <location filename="gui.py" line="1706"/>
         <source>Do you want to download new version?</source>
-        <translation>Wenst u de nieuwe versie te downloaden?</translation>
+        <translation>Wilt u de nieuwe versie downloaden?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1723"/>
@@ -613,7 +613,7 @@
     <message>
         <location filename="gui.py" line="1720"/>
         <source>Do you want to save your changes?</source>
-        <translation>Wenst u de aanpassingen op te slaan?</translation>
+        <translation>Wilt u de aanpassingen opslaan?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1734"/>
@@ -628,7 +628,7 @@
     <message>
         <location filename="gui.py" line="1736"/>
         <source>Do you want to cancel generating of GCode and exit?</source>
-        <translation>Wenst u de lopende berekening af te breken en te sluiten?</translation>
+        <translation>Wilt u de lopende berekening afbreken en alles sluiten?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1773"/>
@@ -638,7 +638,7 @@
     <message>
         <location filename="gui.py" line="1749"/>
         <source>Do you want to cancel generating of GCode and load file?</source>
-        <translation>Wenst u de lopende berekening te stoppen en een bestand in te laden?</translation>
+        <translation>Wilt u de lopende berekening stoppen en een bestand inladen?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1774"/>
@@ -648,7 +648,7 @@
     <message>
         <location filename="gui.py" line="1775"/>
         <source>Do you want to cancel loading of GCode file and load this file?</source>
-        <translation>Wenst u de G-code die wordt ingeladen te stoppen en dit bestand inladen?</translation>
+        <translation>Wilt u het openen van G-code stoppen en dit bestand in de plaats inladen?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1786"/>
@@ -663,22 +663,22 @@
     <message>
         <location filename="gui.py" line="1788"/>
         <source>Do you want to clear scene and load GCode file?</source>
-        <translation>Wenst u het huidige project leeg te maken en G-code in te laden?</translation>
+        <translation>Wilt u het huidige project leeg maken en deze G-code inladen?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1799"/>
         <source>GCode is generated</source>
-        <translation>GCode is berekend</translation>
+        <translation>GCode is gegenereerd</translation>
     </message>
     <message>
         <location filename="gui.py" line="1800"/>
         <source>Scene is generated to GCode</source>
-        <translation>Project is berekend en omgezet in G-code</translation>
+        <translation>G-code van het project is gegenereerd</translation>
     </message>
     <message>
         <location filename="gui.py" line="1801"/>
         <source>Do you want to close GCode preview and import new file?</source>
-        <translation>Wenst u de voorvertoning te sluiten en een nieuw model inladen?</translation>
+        <translation>Wilt u de voorvertoning sluiten en een nieuw model inladen?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1812"/>
@@ -693,7 +693,7 @@
     <message>
         <location filename="gui.py" line="1489"/>
         <source>Do you want to load project file in actual scene?</source>
-        <translation>Wenst u dit project in te laden in het huidige project?</translation>
+        <translation>Wilt u dit project inladen in het huidige project?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1885"/>
@@ -743,7 +743,7 @@
     <message>
         <location filename="gui.py" line="1661"/>
         <source>Copy</source>
-        <translation>kopiëren</translation>
+        <translation>Kopiëren</translation>
     </message>
     <message>
         <location filename="gui.py" line="1662"/>
@@ -758,7 +758,7 @@
     <message>
         <location filename="gui.py" line="1814"/>
         <source>Do you want to open project file and clear actual scene?</source>
-        <translation>Wenst u het project te openen het huidige te verwijderen?</translation>
+        <translation>Wilt u het project openen en het huidige verwijderen?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1815"/>
@@ -773,7 +773,7 @@
     <message>
         <location filename="gui.py" line="1517"/>
         <source>Do you want to print only from one material?</source>
-        <translation>Wenst u slecht één materiaal te printen?</translation>
+        <translation>Wilt u met één enkel materiaal printen?</translation>
     </message>
     <message>
         <location filename="gui.py" line="1529"/>
@@ -823,12 +823,12 @@
     <message>
         <location filename="gui.py" line="1550"/>
         <source>Build plate only, soluble interface</source>
-        <translation>Enkel vanop de bouwplaat, oplosbare interfacelaag</translation>
+        <translation>Enkel vanaf de bouwplaat, oplosbare interfacelaag</translation>
     </message>
     <message>
         <location filename="gui.py" line="1550"/>
         <source>Build plate only with soluble interface</source>
-        <translation>Enkel vanop de bouwplaat met oplosbare interfacelaag</translation>
+        <translation>Enkel vanaf de bouwplaat met oplosbare interfacelaag</translation>
     </message>
     <message>
         <location filename="gui.py" line="1551"/>
@@ -848,7 +848,7 @@
     <message>
         <location filename="gui.py" line="1762"/>
         <source>Do you want to load multiple stl files as one multipart object?</source>
-        <translation>Wenst u meerdere Stl bestanden in te laden als één meerdelig object?</translation>
+        <translation>Wilt u meerdere Stl bestanden inladen als één meerdelig object?</translation>
     </message>
 </context>
 <context>
